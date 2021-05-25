@@ -1,0 +1,6 @@
+<h2><%= @task.title %></h2>
+<p><%= @task.details %></p>
+
+<h3><%= link_to 'Add a new task', new_task_path(@task) %></h3>
+<h3><%= link_to 'Edit task', edit_task_path(@task) %></h3>
+<h3><%= link_to 'Back to the list!', tasks_path %></h3>
